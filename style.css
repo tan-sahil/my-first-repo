@@ -3,19 +3,36 @@ body{
     padding: 0;
     background-color: rgba(0, 0, 0, 0.7);
 }
+.text-size{
+    font-size: 1.2rem;
+    font-weight: 20;
+    color: yellowgreen;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+
+
 .choice{
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
 
 }
 
 
 .pick-one{
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     
 }
